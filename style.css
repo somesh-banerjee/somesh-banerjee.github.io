@@ -6,6 +6,7 @@ body {
   opacity: 0;
   transition: opacity 0.7s;
   overflow:scroll;
+  font-size: 2.1vh;
 }
 a {
   color: yellow;
@@ -130,7 +131,7 @@ section{
 
 .flex-container-h{
   display: flex;
-  font-size: 20px;
+  font-size: 2.75vh;
   margin-left: 2%;
 }
 .flex-container-h > div {
@@ -140,7 +141,7 @@ section{
 }
 .flex-container{
   display: flex;
-  font-size: 20px;
+  font-size: 2.75vh;
   margin-left: 2%;
 }
 
@@ -151,7 +152,7 @@ section{
 }
 
 .flex-container:hover {
-  font-size: 22px;
+  font-size: 2.85vh;
   font-family: monospace;
 }
 .flex-container-crt{
@@ -184,7 +185,7 @@ section{
   left: 0;
   right: 0;
   bottom: 0;
-  font-size: 15px;
+  font-size: 2vh;
   background: rgba(102, 0, 102, 0.8);
   transition: 0.3s all;
 }
@@ -206,7 +207,7 @@ section{
 .bar{
   background: black;
   display: block;
-  height: 6px;
+  height: 0.825vh;
   border: 1px solid white;
   border-radius: 3px;
   overflow: hidden;
@@ -214,7 +215,7 @@ section{
 }
 
 .bar span{
-  height: 6px;
+  height: 0.825vh;
   float: left;
   background: rgba(153, 204, 255);
 }
@@ -246,7 +247,7 @@ section{
 .contact-box{
   width: 50vw;
   padding: 1vw;
-  font-size: 25px;
+  font-size: 3.44vh;
 }
 .contact-box a{
   color: #39ff14;
@@ -273,14 +274,14 @@ section{
 .social ul li a {
     position: relative;
     display: block;
-    width: 40px;
-    height: 40px;
+    width: 5.5vh;
+    height: 5.5vh;
     border-radius: 50%;
     background-color: white;
     text-align: center;
     color: #000000;
-    font-size: 25px;
-    line-height: 40px;
+    font-size: 3.44vh;
+    line-height: 5.5vh;
     transition: 0.3s;
     transform: translate(0,0px);
     box-shadow: 0px 7px 5px rgba(0, 0, 0, 0.5);
@@ -346,7 +347,7 @@ button {
   background: none;
   color: #ccc;
   border: 2px solid #333;
-  font-size: 20px;
+  font-size: 2.75vh;
   border-radius: 5px;
   transition: .6s;
   overflow: hidden;
