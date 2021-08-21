@@ -157,8 +157,8 @@ section{
 }
 .flex-container-crt{
   display: flex;
-  margin-left: 2%;
-  height: 21vh;
+  margin-left: 0%;
+  height: 24vh;
 }
 
 .crt-card{
