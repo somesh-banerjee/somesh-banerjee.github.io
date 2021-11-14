@@ -1255,7 +1255,7 @@ img{
 .social ul {
     position: relative;
     padding: 0;
-    width: auto;
+    max-width: 60vw;
     margin-bottom: 150px;
     left: 0;
     top: 2vw;
@@ -1264,7 +1264,7 @@ img{
 }
 .social ul li {
     list-style: none;
-    margin: 0 10px;
+    /* margin: 0 10px; */
 }
 .social ul li a {
     position: relative;
