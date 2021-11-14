@@ -1,374 +1,714 @@
 <!DOCTYPE html>
-<html lang="en-US">
+<html lang="en">
 <head>
-  <meta charset="utf-8">
-    <title>SOMESH BANERJEE</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="SOMESH BANERJEE">
     <meta name="description" content="Portofolio of Somesh Banerjee">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <!--==================== UNICONS ====================-->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--==================== SWIPER CSS ====================-->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+    <!--==================== CSS ====================-->
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <title>SOMESH BANERJEE</title>
     <script src="https://kit.fontawesome.com/73536a7ee9.js" crossorigin="anonymous"></script>
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-EC1SDWB7T4"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'G-EC1SDWB7T4');
-  </script>
 </head>
-<body onload="document.body.style.opacity='1'">
-    <header>
-        <nav>
-            <ul id="navigation">
-                <li id="navilist"><a href="#Contact">Contact</a></li>
-                <li id="navilist"><a href="#Otherworks">Experiences</a></li>
-                <li id="navilist"><a href="#Projects">Projects</a></li>
-                <li id="navilist"><a href="#Accomplishments">Accomplishments</a></li>
-                <li id="navilist"><a href="#Skill">Skills</a></li>
-                <li id="navilist"><a href="#Education">Education</a></li>
-                <li id="navilist"><a href="#fp1">About</a></li>
-            </ul>
+<body>
+<!--==================== HEADER ====================-->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <!-- <a href="#" class="nav__logo">Somesh Banerjee</a> -->
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list grid">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link">
+                            <i class="uil uil-user nav__icon"></i> About
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#skills" class="nav__link">
+                            <i class="uil uil-file-alt nav__icon"></i> Skills
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#experience" class="nav__link">
+                            <i class="uil uil-briefcase-alt nav__icon"></i> Experience
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#portfolio" class="nav__link">
+                            <i class="uil uil-scenery nav__icon"></i> Projects
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#contact" class="nav__link">
+                            <i class="uil uil-estate nav__icon"></i> Contact Me
+                        </a>
+                    </li>
+                </ul>
+                <i class="uil uil-times nav__close" id="nav-close"></i>
+            </div>
+
+            <div class="nav__btns">
+                <!--Theme change button-->
+                <i class="uil uil-moon change-theme" id="theme-button"></i>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="uil uil-apps"></i>
+                </div>
+            </div>
         </nav>
     </header>
-<div id="particles-js"></div>
-<div class="wrapper">
-  <section class="secone" style="height: 90vh">
-    <div class="content">
-      <div id="fp1" style="width=100%">
-        <div id="alltitle">
-          <h1 id="title" style="font-size: 4vw">
-             SOMESH BANERJEE
-          </h1>
-          <div class="rt-out">
-            <h3 style="font-size: 1.5vw">I am
-                <div class="rt-in">
-                  <span>
-                    student at IIIT Naya Raipur<br>
-                    CTF Player<br>
-                    dApps Developer<br>
-                    Android App Developer
-                  </span>
-                </div>
-            </h3>
-          </div>
-          <div class="button" style="height: 10vh">
-            <button type="button" onclick="window.open('cv.pdf')">RESUME</button>
-          </div>
-        </div>
-        <div id="dpic">
-          <img class="t-box" src="somesh.jpg"></image>
-      </div>
-      <div id="About">
-          <h2 >About</h2>
-          <p> I am a B. Tech Undergraduate student at IIIT Naya Raipur. I am interested in Infosec and blockchain industry. I have taken part in several CTFs and Hackathons.
-      </div>
-    </div>
-  </section>
-  <section class="sectwo">
-    <div class="content">
-      <div id="Education">
-          <h2 >Education</h2>
-          <div class="flex-container-h">
-            <div style="width: 8%">YEAR</div>
-            <div style="width: 35%">DEGREE</div>
-            <div style="width: 35%">INSTITUTE</div>
-            <div style="width: 8%">GRADE</div>
-          </div>
-          <div class="flex-container">
-            <div style="width: 8%">2019-2023</div>
-            <div style="width: 35%">Bachelor of Technology in Electronics and Communication Engineering</div>
-            <div style="width: 35%">INTERNATIONAL INSTITUTE OF INFORMATION TECHNOLOGY, NAYA RAIPUR</div>
-            <div style="width: 8%">9.14 CGPA</div>
-          </div>
-          <div class="flex-container">
-            <div style="width: 8%">2019</div>
-            <div style="width: 35%">High School AISSCE(CBSE)</div>
-            <div style="width: 35%">ARMY PUBLIC SCHOOL BARRACKPORE</div>
-            <div style="width: 8%">94.2%</div>
-          </div>
-          <div class="flex-container">
-            <div style="width: 8%">2017</div>
-            <div style="width: 35%">Standard 10 AISSE(CBSE)</div>
-            <div style="width: 35%">ARMY PUBLIC SCHOOL BARRACKPORE</div>
-            <div style="width: 8%">10 CGPA</div>
-          </div>
-      </div>
-    </div>
-  </section>
-  <section class="secseven">
-    <div class="content">
-      <div id="Skill">
-        <h2 style="margin-left:1vw">Skills</h2>
-        <div class="skills">
-          <p>
-            <h4>Linux</h4><span class="bar"><span style="width:74%"></span></span>
-          </p>
-          <p>
-            <h4>Python</h4><span class="bar"><span style="width:48%"></span></span>
-          </p>
-          <p>
-            <h4>Blockchain</h4><span class="bar"><span style="width:66%"></span></span>
-          </p>
-          <p>
-            <h4>Frontend Development</h4><span class="bar"><span style="width:54%"></span></span>
-          </p>
-          <p>
-            <h4>Cryptography</h4><span class="bar"><span style="width:60%"></span></span>
-          </p>
-          <p>
-            <h4>Machine Learning</h4><span class="bar"><span style="width:30%"></span></span>
-          </p>
-          <p>
-            <h4>Analytics</h4><span class="bar"><span style="width:45%"></span></span>
-          </p>
-        </div>
-        <div class="skills">
-          <p>
-            <h4>C++</h4><span class="bar"><span style="width:57%"></span></span>
-          </p>
-          <p>
-            <h4>Pentesting</h4><span class="bar"><span style="width:35%"></span></span>
-          </p>
-          <p>
-            <h4>Fullstack dApp Development(Ethereum)</h4><span class="bar"><span style="width:32%"></span></span>
-          </p>
-          <p>
-            <h4>Backend Development</h4><span class="bar"><span style="width:10%"></span></span>
-          </p>
-          <p>
-            <h4>Android Studio</h4><span class="bar"><span style="width:70%"></span></span>
-          </p>
-          <p>
-            <h4>SQL</h4><span class="bar"><span style="width:40%"></span></span>
-          </p>
-          <p>
-            <h4>Video Editing</h4><span class="bar"><span style="width:55%"></span></span>
-          </p>
-        </div>
-      </div>
-    </div>
-  </section>
-  <section class="secthree">
-    <div class="content">
-      <div id="Accomplishments">
-        <h2>Accomplishments</h2>
-        <h3>Certificates <a href="certificates.html">[View all]</a></h3>
-        <div class="flex-container-crt">
-          <div class="crt-card">
-            <h3>The Bits and Bytes of Computer Networking</h3>
-            <p>Issued by Coursera</p>
-            <div class="crt-info">
-              <p>Course on computer networking from the fundamentals to practical applications and network troubleshooting.</p>
-              <a href="https://www.coursera.org/account/accomplishments/certificate/3AFW225YB8QA" target="_blank" style="color:yellow;">See credential</a>
-            </div>
-          </div>
-          <div class="crt-card">
-            <h3>Blockchain Basics</h3>
-            <p>Issued by Coursera</p>
-            <div class="crt-info">
-              <p>Course on concepts of blockchain technology, exploring differents protocol for developing applications.</p>
-              <a href="https://www.coursera.org/account/accomplishments/certificate/BP3G3QZMXN9V" target="_blank" style="color:yellow;">See credential</a>
-            </div>
-          </div>
-          <div class="crt-card">
-            <h3>Algorithmic Toolbox</h3>
-            <p>Issued by Coursera</p>
-            <div class="crt-info">
-              <p>Course authorized by University of California San Diego and HSE University covering different programming algorithms</p>
-              <a href="https://www.coursera.org/account/accomplishments/certificate/RMCNX9BUPKX8" target="_blank" style="color:yellow;">See credential</a>
-            </div>
-          </div>
-          <div class="crt-card">
-            <h3>Mathematical Founda-tions for Cryptography</h3>
-            <p>Issued by Coursera</p>
-            <div class="crt-info">
-              <p>An online Course authorized by University of Colorado System.</p>
-              <a href="https://www.coursera.org/account/accomplishments/certificate/ACZBRKBS3JU4" target="_blank" style="color:yellow;">See credential</a>
-            </div>
-          </div>
-        </div>
-        <h3>Virtual Internships</h3>
-          <div class="flex-container-crt">
-            <div class="crt-card">
-              <h3>PwC Cybersecurity Virtual Case Experience</h3>
-              <p>Issued by Forage</p>
-              <div class="crt-info">
-                <p>This covers Integrated Information Defense, Risk Assessment, IT System Security Baseline, and Network Segmentation.</p>
-                <a href="https://insidesherpa.s3.amazonaws.com/completion-certificates/PwC/f9H4CHchzrKQbnbmK_PwC_eJR3S3RfyQvrhpyvt_1628226413942_completion_certificate.pdf" target="_blank" style="color:yellow;">See credential</a>
-              </div>
-            </div>
-            <div class="crt-card">
-              <h3>Goldman Sachs Engineering Virtual Program</h3>
-              <p>Issued by Forage</p>
-              <div class="crt-info">
-                <p>This covers analyzing leaked passwords of organization, cracking them and finding better policy.</p>
-                <a href="https://insidesherpa.s3.amazonaws.com/completion-certificates/Goldman%20Sachs/NPdeQ43o8P9HJmJzg_Goldman%20Sachs_eJR3S3RfyQvrhpyvt_1627143010499_completion_certificate.pdf" target="_blank" style="color:yellow;">See credential</a>
-              </div>
-            </div>
-            <div class="crt-card">
-              <h3>Quantium Data Analytics Virtual Experience Program</h3>
-              <p>Issued by Forage</p>
-              <div class="crt-info">
-                <p>This covers Data preparation and customer analytics, Experimentation and uplift testing, and Analytics and commercial application.</p>
-                <a href="https://insidesherpa.s3.amazonaws.com/completion-certificates/Quantium/NkaC7knWtjSbi6aYv_Quantium_eJR3S3RfyQvrhpyvt_1628531491449_completion_certificate.pdf" target="_blank" style="color:yellow;">See credential</a>
-              </div>
-            </div>
-          </div>
-        <h3>Online platforms</h3>
-          <div style="display: flex; justify-content: space-around; margin-left: 2%; width:100%">
-            <a href="https://app.hackthebox.eu/profile/374156" target="_blank">
-              <div class="htb-logo" style="margin-left: 5px; text-align: center; display:table-cell; vertical-align: middle; border: 3px solid green; border-radius: 7px;">
 
-              <script src="https://www.hackthebox.eu/badge/374156" onerror="document.getElementByClassName('htb-logo').innerHTML = "hackthebox";"></script>
-              </div>
-            </a>
-            <a href="https://tryhackme.com/p/master245" target="_blank">
-              <div style="margin-left: 5px; text-align: center; display:table-cell; vertical-align: middle; border: 3px solid green; border-radius: 7px;">
-              <script src="https://tryhackme.com/badge/470300"></script>
-              </div>
-            </a>
-            <a href="https://www.hackerrank.com/someshbanerjee" target="_blank">
-              <div style="margin-left: 5px; height: 10vh; width: 10vw; text-align: center; display:table-cell; vertical-align: middle; border: 3px solid green; border-radius: 7px;">
-                HackerRank
-              </div>
-            </a>
-          </div>
-      </div>
-    </div>
-  </section>
-  <section class="secfour">
-    <div class="content">
-      <div id="Projects">
-        <h2>Projects</h2>
-          <div class="flex-container-crt">
-            <div class="prj-card">
-              <h3>CrowdSourcing platform on Ethereum</h3>
-              <p>
-                <span class="prj-tag">Ethereum</span>
-                <span class="prj-tag">Solidity</span>
-                <span class="prj-tag">Reactjs</span>
-                <span class="prj-tag">Nextjs</span>
-                <span class="prj-tag">Guided&nbsp;project</span>
-                <span class="prj-tag">Smart&nbsp;Contract</span>
-              </p>
-              <div class="crt-info">
-                <p>This is a CrowdSourcing app built on the ethereum Rinkeby Test network.</p>
-                <a href="" target="_blank" style="color:yellow;">Code</a>
-              </div>
+<!--==================== MAIN ====================-->
+    <main class="main">
+        <!--==================== HOME ====================-->
+        <section class="home section" id="home">
+            <div class="home__container container grid">
+                <div class="home__content grid">
+                    <div class="home__social">
+                        <a href="https://www.linkedin.com/in/somesh-banerjee-038461190/" target="_blank" class="home__social-icon">
+                            <i class="uil uil-linkedin-alt"></i>
+                        </a>
+                        <a href="https://github.com/somesh-banerjee" target="_blank" class="home__social-icon">
+                            <i class="uil uil-github-alt"></i>
+                        </a>
+                        <a href="https://t.me/m_st3r" target="_blank" class="home__social-icon">
+                            <i class="fa fa-telegram" ></i>
+                        </a>
+                    </div>
+
+                    <div class="home__img">
+                        <img class="t-box" src="assets/img/somesh.jpg"></image>
+                    </div>
+                    <div class="home__data">
+                        <h1 class="home__title">Somesh Banerjee</h1>
+                        <h3 class="home__subtitle">
+                            <div class="rt-in">
+                                <span>
+                                  student at IIIT Naya Raipur<br>
+                                  CTF Player<br>
+                                  dApps Developer<br>
+                                  Android App Developer
+                                </span>
+                              </div>
+                        </h3>
+                        <p class="home__description">I am a B. Tech Undergraduate student at IIIT Naya Raipur. I am interested in Infosec and blockchain industry. I have taken part in several CTFs and Hackathons.</p>
+                        
+                        <div class="about__info">
+                            <!-- <div >
+                                <span class="about__info-title">02+</span>
+                                <span class="about__info-name">Years <br> experience </span>
+                            </div> -->
+    
+                            <!-- <div>
+                                <span class="about__info-title">02+</span>
+                                <span class="about__info-name">Companies <br> worked </span>
+                            </div> -->
+    
+                            <div>
+                                <span class="about__info-title">05+</span>
+                                <span class="about__info-name">Completed <br> projects </span>
+                            </div>
+                        </div>
+
+                        <div class="about__buttons">
+                            <a download="" href="assets/pdf/resume.pdf" class="button button--flex">
+                                Download CV <i class="uil uil-download-alt button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- <div class="home_scroll">
+                    <a href="#about" class="home__scroll-button button--flex">
+                        <i class="uil uil-mouse-alt home__scroll-mouse"></i>
+                        <span class="home__scroll-name">Scroll down</span>
+                        <i class="uil uil-arrow-down homw__scroll-arrow"></i>
+                    </a>
+                </div> -->
             </div>
-            <div class="prj-card">
-              <h3>Vehicle Number Plate Detection</h3>
-              <p>
-                <span class="prj-tag">Jupyter Notebook</span>
-                <span class="prj-tag">Digital Filter</span>
-              </p>
-              <div class="crt-info">
-                <p></p>
-                <a href="https://github.com/somesh-banerjee/Vehicle-Number-Plate-Detection" target="_blank" style="color:yellow;">Code</a>
-              </div>
+        </section>
+
+        <!--==================== SKILLS ====================-->
+        <section class="skills section" id="skills">
+            <h2 class="section__title">Skills</h2>
+            <!-- <span class="section__subtitle">My technical level</span> -->
+
+            <div class="skills__container container grid">
+                <div>
+                    <!--====================== SKILLS 1 =============================-->
+                    <div class="skills__content skills__open">
+                        <div class="skills__header">
+                            <i class="uil uil-brackets-curly skills__icon"></i>
+
+                            <div>
+                                <h1 class="skills__title">Blockchain/dApp Development</h1>
+                                <!-- <span class="skills__subtitle">More than 2 years</span> -->
+                            </div>
+
+                            <i class="uil uil-angle-down skills__arrow"></i>
+                        </div>
+
+                        <div class="skills__list grid">
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">Ethereum/Solidity</h3>
+                                    <div class="skills__number">80%</div>
+                                </div>
+                                <div class="skills__bar">
+                                    <div class="skills__percentage skills__solidity"></div>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">Tezos/Smartpy</h3>
+                                    <div class="skills__number">30%</div>
+                                </div>
+                                <div class="skills__bar">
+                                    <div class="skills__percentage skills__tezos"></div>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">Chainlink</h3>
+                                    <div class="skills__number">10%</div>
+                                </div>
+                                <div class="skills__bar">
+                                    <div class="skills__percentage skills__chainlink"></div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <!--====================== SKILLS 2 =============================-->
+                    <div class="skills__content skills__close">
+                        <div class="skills__header">
+                            <i class="uil uil-brackets-curly skills__icon"></i>
+
+                            <div>
+                                <h1 class="skills__title">Web Development</h1>
+                                <!-- <span class="skills__subtitle">More than 1 year</span> -->
+                            </div>
+
+                            <i class="uil uil-angle-down skills__arrow"></i>
+                        </div>
+
+                        <div class="skills__list grid">
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">Javascript</h3>
+                                    <div class="skills__number">60%</div>
+                                </div>
+                                <div class="skills__bar">
+                                    <div class="skills__percentage skills__javascript"></div>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">React.js</h3>
+                                    <div class="skills__number">50%</div>
+                                </div>
+                                <div class="skills__bar">
+                                    <div class="skills__percentage skills__react"></div>
+                                </div>
+                            </div>
+                            
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">Next.js</h3>
+                                    <div class="skills__number">40%</div>
+                                </div>
+                                <div class="skills__bar">
+                                    <div class="skills__percentage skills__nextjs"></div>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">Semantics UI</h3>
+                                    <div class="skills__number">40%</div>
+                                </div>
+                                <div class="skills__bar">
+                                    <div class="skills__percentage skills__semantics"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <!--====================== SKILLS 3 =============================-->
+                        <div class="skills__content skills__close">
+                            <div class="skills__header">
+                                <i class="uil uil-brackets-curly skills__icon"></i>
+
+                                <div>
+                                    <h1 class="skills__title">Scripting</h1>
+                                </div>
+
+                                <i class="uil uil-angle-down skills__arrow"></i>
+                            </div>
+
+                            <div class="skills__list grid">
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">C++</h3>
+                                        <div class="skills__number">70%</div>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <div class="skills__percentage skills__cpp"></div>
+                                    </div>
+                                </div>
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">Python</h3>
+                                        <div class="skills__number">60%</div>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <div class="skills__percentage skills__python"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--====================== SKILLS 4 =============================-->
+                    <div class="skills__content skills__close">
+                        <div class="skills__header">
+                            <i class="uil uil-brackets-curly skills__icon"></i>
+
+                            <div>
+                                <h1 class="skills__title">Others</h1>
+                                <!-- <span class="skills__subtitle">More than 1 year</span> -->
+                            </div>
+
+                            <i class="uil uil-angle-down skills__arrow"></i>
+                        </div>
+
+                        <div class="skills__list grid">
+
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">Linux</h3>
+                                    <div class="skills__number">90%</div>
+                                </div>
+                                <div class="skills__bar">
+                                    <div class="skills__percentage skills__linux"></div>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">Machine Learning</h3>
+                                    <div class="skills__number">40%</div>
+                                </div>
+                                <div class="skills__bar">
+                                    <div class="skills__percentage skills__ml"></div>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">Cryptography</h3>
+                                    <div class="skills__number">70%</div>
+                                </div>
+                                <div class="skills__bar">
+                                    <div class="skills__percentage skills__crypto"></div>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">Analytics</h3>
+                                    <div class="skills__number">40%</div>
+                                </div>
+                                <div class="skills__bar">
+                                    <div class="skills__percentage skills__analytics"></div>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">Android Studio</h3>
+                                    <div class="skills__number">50%</div>
+                                </div>
+                                <div class="skills__bar">
+                                    <div class="skills__percentage skills__andstu"></div>
+                                </div>
+                            </div>
+                            
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">SQL</h3>
+                                    <div class="skills__number">40%</div>
+                                </div>
+                                <div class="skills__bar">
+                                    <div class="skills__percentage skills__mysql"></div>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">Video Editing</h3>
+                                    <div class="skills__number">75%</div>
+                                </div>
+                                <div class="skills__bar">
+                                    <div class="skills__percentage skills__videdit"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
             </div>
-            <div class="prj-card">
-              <h3>BloodDriveApp</h3>
-              <p>
-                <span class="prj-tag">Android&nbsp;Studio</span>
-                <span class="prj-tag">Java</span>
-                <span class="prj-tag">Firebase&nbsp;Firestore</span>
-                <span class="prj-tag">Firebase&nbsp;Auth</span>
-              </p>
-              <div class="crt-info">
-                <p>This app collects donor's information and store them in a database. When a nearby blood drive is organized the user is notified with the blood drive.</p>
-                <a href="https://github.com/somesh-banerjee/BloodDriveApp" target="_blank" style="color:yellow;">Code</a>
-              </div>
+        </section>
+
+        <!--==================== QUALIFICATION ====================-->
+        <section class="qualification section" id="experience">
+            <h2 class="section__title">Experience</h2>
+            <!-- <div class="section__subtitle">My personal journey</div> -->
+
+            <div class="qualification__container container">
+                <div class="qualification__tabs">
+                    <div class="qualification__button button--flex qualification__active" data-target="#education">
+                        <i class="uil uil-graduation-cap qualification__icon"></i>
+                        Education
+                    </div>
+
+                    <div class="qualification__button button--flex" data-target="#work">
+                        <i class="uil uil-briefcase-alt qualification__icon"></i>
+                        Work
+                    </div>
+                </div>
+
+                <div class="qualification__sections">
+                    <!--===============================QUALIFICATION CONTENT 1 ===========================-->
+                    <div class="qualification__content qualification__active" data-content id="education">
+                        <!--===============================QUALIFICATION 1 ===========================-->
+                        <div class="qualification__data">
+                            <div>
+                                <h3 class="qualification__title">B. Tech in Electronics and Communication Engineering</h3>
+                                <span class="qualification__subtitle">INTERNATIONAL INSTITUTE OF INFORMATION TECHNOLOGY, NAYA RAIPUR</span>
+                                <div class="qualification__calendar">
+                                    <i class="uil uil-calendar-alt"></i>
+                                    August, 2019 - Present
+                                </div>
+                            </div>
+
+                            <div>
+                                <span class="qualification__rounder"></span>
+                                <span class="qualification__line"></span>
+                            </div>
+                        </div>
+
+                        <!--===============================QUALIFICATION 2 ===========================-->
+                        <div class="qualification__data">
+                            <div></div>
+                            <div>
+                                <span class="qualification__rounder"></span>
+                                <span class="qualification__line"></span>
+                            </div>
+
+                            <div>
+                                <h3 class="qualification__title">High School AISSCE(CBSE)</h3>
+                                <span class="qualification__subtitle">ARMY PUBLIC SCHOOL BARRACKPORE</span>
+                                <div class="qualification__calendar">
+                                    <i class="uil uil-calendar-alt"></i>
+                                    2017 - 2019
+                                </div>
+                            </div>
+
+
+                        </div>
+
+                        <!--===============================QUALIFICATION 3 ===========================-->
+                        <div class="qualification__data">
+                            <div>
+                                <h3 class="qualification__title">Standard 10 AISSE(CBSE)</h3>
+                                <span class="qualification__subtitle">ARMY PUBLIC SCHOOL BARRACKPORE</span>
+                                <div class="qualification__calendar">
+                                    <i class="uil uil-calendar-alt"></i>
+                                    2017
+                                </div>
+                            </div>
+
+                            <div>
+                                <span class="qualification__rounder"></span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--===============================QUALIFICATION CONTENT 2 ===========================-->
+                    <div class="qualification__content" data-content id="work">
+                        <!--===============================QUALIFICATION 1 ===========================-->
+                        <div class="qualification__data">
+                            <div>
+                                <h3 class="qualification__title">Incharge and Web Development</h3>
+                                <span class="qualification__subtitle">
+                                    <a href="https://sac.iiitnr.ac.in/clubs/ciphercell" target="_blank">CipherCell</a>
+                                    <small>(Infosec club of IIIT Naya Raipur)</small>
+                                </span>
+                                <div class="qualification__calendar">
+                                    <i class="uil uil-calendar-alt"></i>
+                                    September, 2020 - Present
+                                </div>
+                            </div>
+
+                            <div>
+                                <span class="qualification__rounder"></span>
+                                <span class="qualification__line"></span>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
             </div>
-          </div>
-          <div class="flex-container-crt" style="margin-top: 1vw">
-            <div class="prj-card">
-              <h3>AQI Monitoring with NodeMCU</h3>
-              <p>
-                <span class="prj-tag">IOT</span>
-                <span class="prj-tag">Android&nbsp;Studio</span>
-                <span class="prj-tag">Java</span>
-                <span class="prj-tag">ThingSpeak</span>
-                <span class="prj-tag">NodeMCU</span>
-              </p>
-              <div class="crt-info">
-                <p></p>
-                <a href="https://github.com/somesh-banerjee/AQI-monitor" target="_blank" style="color:yellow;">Code</a>
-              </div>
+        </section>
+
+        <!--==================== accomplishments ====================-->
+        <!-- <section class="accomplishments section" id="accomplishments">
+            <h2 class="section__title">Accomplishments</h2>
+            <span class="section__subtitle">What I offer</span>
+
+            <div class="accomplishments__container container grid"> -->
+                <!--===================== accomplishments 1 ====================-->
+                <!-- <div class="accomplishments__content">
+                    <div>
+                        <i class="uil uil-arrow accomplishments__icon"></i>
+                        <h3 class="accomplishments__title">Backend <br> Developer</h3>
+
+                        <span class="button button--flex button--small button--link accomplishments__button">
+                            View More
+                            <i class="uil uil-arrow-right button__icon"></i>
+                        </span>
+
+                        <div class="accomplishments__modal">
+                            <div class="accomplishments__modal-content">
+                                <h4 class="accomplishments__modal-title">Backend <br> Developer</h4>
+                                <i class="uil uil-times accomplishments__modal-close"></i>
+
+                                <ul class="accomplishments__modal-accomplishments grid">
+                                    <li class="accomplishments__modal-service">
+                                        <i class="uil uil-check-circle accomplishments__modal-icon"></i>
+                                        <p>I design Web Architecture.</p>
+                                    </li>
+
+                                    <li class="accomplishments__modal-service">
+                                        <i class="uil uil-check-circle accomplishments__modal-icon"></i>
+                                        <p>I create structural backbone of the platform.</p>
+                                    </li>
+
+                                    <li class="accomplishments__modal-service">
+                                        <i class="uil uil-check-circle accomplishments__modal-icon"></i>
+                                        <p>I maintain version control tools.</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+
+                <!--===================== accomplishments 2 ====================-->
+                <!-- <div class="accomplishments__content">
+                    <div>
+                        <i class="uil uil-web-grid accomplishments__icon"></i>
+                        <h3 class="accomplishments__title">Frontend <br> Developer</h3>
+
+                        <span class="button button--flex button--small button--link accomplishments__button">
+                            View More
+                            <i class="uil uil-arrow-right button__icon"></i>
+                        </span>
+
+                        <div class="accomplishments__modal">
+                            <div class="accomplishments__modal-content">
+                                <h4 class="accomplishments__modal-title">Frontend <br> Developer</h4>
+                                <i class="uil uil-times accomplishments__modal-close"></i>
+
+                                <ul class="accomplishments__modal-accomplishments grid">
+                                    <li class="accomplishments__modal-service">
+                                        <i class="uil uil-check-circle accomplishments__modal-icon"></i>
+                                        <p>I develop user interface.</p>
+                                    </li>
+
+                                    <li class="accomplishments__modal-service">
+                                        <i class="uil uil-check-circle accomplishments__modal-icon"></i>
+                                        <p>I create web page.</p>
+                                    </li>
+
+                                    <li class="accomplishments__modal-service">
+                                        <i class="uil uil-check-circle accomplishments__modal-icon"></i>
+                                        <p>I restructure ui/ux components.</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+
+                <!--===================== accomplishments 3 ====================-->
+                <!-- <div class="accomplishments__content">
+                    <div>
+                        <i class="uil uil-pen accomplishments__icon"></i>
+                        <h3 class="accomplishments__title">Database <br> Designer</h3>
+
+                        <span class="button button--flex button--small button--link accomplishments__button">
+                            View More
+                            <i class="uil uil-arrow-right button__icon"></i>
+                        </span>
+
+                        <div class="accomplishments__modal">
+                            <div class="accomplishments__modal-content">
+                                <h4 class="accomplishments__modal-title">Database <br> Designer</h4>
+                                <i class="uil uil-times accomplishments__modal-close"></i>
+
+                                <ul class="accomplishments__modal-accomplishments grid">
+                                    <li class="accomplishments__modal-service">
+                                        <i class="uil uil-check-circle accomplishments__modal-icon"></i>
+                                        <p>I design database.</p>
+                                    </li>
+
+                                    <li class="accomplishments__modal-service">
+                                        <i class="uil uil-check-circle accomplishments__modal-icon"></i>
+                                        <p>I structure data for user.</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+            <!-- </div>
+        </section> -->
+
+        <!--==================== PORTFOLIO ====================-->
+        <section class="portfolio section" id="portfolio">
+            <h2 class="section__title">Projects</h2>
+            <span class="section__subtitle">Most Recent Work</span>
+
+            <div class="portfolio__container container swiper-container">
+                <div class="swiper-wrapper">
+                    <!--======================== PORTFOLIO 1 =============-->
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="assets/img/crdsrc.png" alt="" class="portfolio__img">
+
+                        <div class="portfolio__data">
+                            <h3 class="portfolio__title">CrowdSourcing platform on Ethereum</h3>
+                            <p class="portfolio__description">
+                                This is a CrowdSourcing app built on the ethereum Rinkeby Test network.
+                            </p>
+                            <a href="https://github.com/somesh-banerjee/Crwd_Src" class="button button--flex button--small portfolio__button">
+                                Github Repo
+                            </a>
+                        </div>
+                    </div>
+
+                    <!--======================== PORTFOLIO 2 =============-->
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="assets/img/prj2.png" alt="" class="portfolio__img">
+
+                        <div class="portfolio__data">
+                            <h3 class="portfolio__title">Vehicle Number Plate Detection</h3>
+                            <p class="portfolio__description">
+                                Identifying number plate in a image using filters and then detecting characters using OCR.
+                            </p>
+                            <a href="https://github.com/somesh-banerjee/Vehicle-Number-Plate-Detection" class="button button--flex button--small portfolio__button">
+                                Github Repo
+                            </a>
+                        </div>
+                    </div>
+
+                    <!--======================== PORTFOLIO 3 =============-->
+                    <div class="portfolio__content grid swiper-slide">
+
+                        <div class="portfolio__data">
+                            <h3 class="portfolio__title">BloodDriveApp</h3>
+                            <p class="portfolio__description">
+                                This app collects donor's information and store them in a database. When a nearby blood drive is organized the user is notified with the blood drive.
+                            </p>
+                            <a href="https://github.com/somesh-banerjee/BloodDriveApp" class="button button--flex button--small portfolio__button">
+                                Github Repo
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+                <!--============ Add Arrows =============-->
+                <div class="swiper-button-next">
+                    <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
+                </div>
+                <div class="swiper-button-prev">
+                    <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
+                </div>
+
+                <!--============ Add Pagination =============-->
+                <div class="swiper-pagination"></div>
             </div>
-            <div class="prj-card">
-              <h3>Hostel Management</h3>
-              <p>
-                <span class="prj-tag">Android&nbsp;Studio</span>
-                <span class="prj-tag">Java</span>
-                <span class="prj-tag">Firebase&nbsp;Firestore</span>
-                <span class="prj-tag">Firebase&nbsp;Auth</span>
-              </p>
-              <div class="crt-info">
-                <p></p>
-                <a href="https://github.com/somesh-banerjee/Hostel-Management" target="_blank" style="color:yellow;">Code</a>
-              </div>
+        </section>
+
+        <!--==================== CONTACT ME ====================-->
+        <section class="contact section" id="contact">
+            <h2 class="section__title">Contact Me</h2>
+
+            <div class="contact__container container grid">
+                <div>
+
+                    <div class="contact__information">
+                        <i class="uil uil-envelope contact__icon"></i>
+
+                        <div>
+                            <h3 class="contact__title">Email</h3>
+                            <span class="contact__subtitle">somesh0banerjee@gmail.com</span>
+                        </div>
+                    </div>
+
+                    <div class="contact__information">
+                        <i class="uil uil-map-marker contact__icon"></i>
+
+                        <div>
+                            <h3 class="contact__title">Location</h3>
+                            <span class="contact__subtitle">Kolkata, India</span>
+                        </div>
+                    </div>
+
+                    <div class="social">
+                        <ul>
+                          <li><a href="https://www.linkedin.com/in/somesh-banerjee-038461190/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+                          <li><a href="https://github.com/somesh-banerjee" target="_blank"><i class="fa fa-github"></i></a></li>
+                          <li><a href="https://www.facebook.com/profile.php?id=100007474669415" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                          <li><a href="https://twitter.com/banerjee_somesh" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                          <li><a href="https://steamcommunity.com/profiles/76561199035516156/" target="_blank"><i class="fa fa-steam"></i></a></li>
+                          <li><a href="https://t.me/m_st3r" target="_blank"><i class="fa fa-telegram"></i></a></li>
+                          <!--<li><a href=""><i class="fa fa-youtube"></i></a></li>!-->
+                        </ul>
+                    </div>
+
+                </div>
             </div>
-          </div>
-          <div class="flex-container-crt" style="margin-top: 1vw">
-            <!--<div class="prj-card">
-              <h3>Lottery game on Ethereum</h3>
-              <p>
-                <span class="prj-tag">Ethereum</span>
-                <span class="prj-tag">Solidity</span>
-                <span class="prj-tag">Reactjs</span>
-                <span class="prj-tag">Guided&nbsp;Project</span>
-                <span class="prj-tag">Smart&nbsp;Contract</span>
-              </p>
-              <div class="crt-info">
-                <p></p>
-                <a href="" target="_blank" style="color:yellow;">Code</a>
-              </div>
-            </div>-->
-          </div>
-      </div>
-    </div>
-  </section>
-  <section class="secfive">
-    <div class="content">
-      <div id="Otherworks">
-        <h2>Experiences</h2>
-        <div class="exp">
-          <p>Core Member at Ciphercell(infosec club of IIIT-NR) from July 2020. Promoted to vice Secreatary in August 2021.</p>
-          <p>Organizer and video Editor in Scintific 2k20 from September 2019 to January 2020.</p>
-          <p>Took part in Google Cloud Ready Facilitator Program and completed 3 milestones. <a href="https://www.qwiklabs.com/public_profiles/5a9269cc-82a4-4748-81c4-92bb798e5165" target="_blank" style="color:yellow;">My Qwiklabs account</a></p>
-          <p>Took part in the Amazon ML challenge (July 2021) and Adobe Analytics Challenge (Oct 2020).</p>
-        </div>
-      </div>
-    </div>
-  </section>
-  <section class="secsix" style="height: 90vh">
-    <div id="Contact" class="content">
-      <div>
-          <div class="contact-box">
-            <h2>Contact</h2>
-            <p>Address: Sukchar, Kolkata, India
-            <p>E-mail: <a href="mailto: [somesh0banerjee@gmail.com]">somesh0banerjee@gmail.com</a><br>
-            <span style="opacity:0;">E-mail: </span><a href="mailto: [somesh19101@iiitnr.edu.in]">somesh19101@iiitnr.edu.in</a><br>
-          </div>
-      </div>
-      <div class="social">
-        <ul>
-          <li><a href="https://www.linkedin.com/in/somesh-banerjee-038461190/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
-          <li><a href="https://github.com/somesh-banerjee" target="_blank"><i class="fa fa-github"></i></a></li>
-          <li><a href="https://www.facebook.com/profile.php?id=100007474669415" target="_blank"><i class="fa fa-facebook"></i></a></li>
-          <li><a href="https://twitter.com/banerjee_somesh" target="_blank"><i class="fa fa-twitter"></i></a></li>
-          <li><a href="https://steamcommunity.com/profiles/76561199035516156/" target="_blank"><i class="fa fa-steam"></i></a></li>
-          <li><a href="https://t.me/m_st3r" target="_blank"><i class="fab fa-telegram"></i></a></li>
-          <!--<li><a href=""><i class="fa fa-youtube"></i></a></li>!-->
-        </ul>
-      </div>
-    </div>
-  </section>
-</div>
-<script type="text/javascript" src="particles.js"></script>
-<script type="text/javascript" src="app.js"></script>
+
+        </section>
+    </main>
+
+    <!--==================== SCROLL TOP ====================-->
+    <a href="" class="scrollup" id="scroll-up">
+        <i class="uil uil-arrow-up scroll__icon"></i>
+    </a>
+
+    <!--==================== SWIPER JS ====================-->
+    <script src="assets/js/swiper-bundle.min.js"></script>
+
+    <!--==================== MAIN JS ====================-->
+    <script src="assets/js/main.js"></script>
+    
+<script type="text/javascript" src="assets/js/particles.js"></script>
+<script type="text/javascript" src="assets/js/app.js"></script>
 </body>
 </html>
