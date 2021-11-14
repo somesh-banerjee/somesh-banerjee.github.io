@@ -1255,7 +1255,7 @@ img{
 .social ul {
     position: relative;
     padding: 0;
-    max-width: 60vw;
+    min-width: 30vw;
     margin-bottom: 150px;
     left: 0;
     top: 2vw;
