@@ -551,6 +551,14 @@ img{
     width: 60%;
 }
 
+.skills__node{
+    width: 60%;
+}
+
+.skills__express{
+    width: 30%;
+}
+
 .skills__linux{
     width: 90%;
 }
@@ -1320,27 +1328,6 @@ img{
     transition: 0.3s;
     box-shadow: 10px 10px 10px 10px var(--first-color-lighter), -10px 10px 10px 10px var(--first-color-lighter), 10px -10px 10px 10px var(--first-color-lighter), -10px -10px 10px 10px var(--first-color-lighter);
 }
-
-#particles-js canvas {
-    display: block;
-    vertical-align: bottom;
-    -webkit-transform: scale(1);
-    -ms-transform: scale(1);
-    transform: scale(1);
-    opacity: 1;
-    -webkit-transition: opacity .8s ease, -webkit-transform 1.4s ease;
-    transition: opacity .8s ease, transform 1.4s ease
-  }
-
-  #particles-js {
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    background: linear-gradient(45deg, #000000, #081866);
-    z-index: 9;
-    top: 0;
-    left: 0
-  }
 
   .rt-in{
     position: relative;
