@@ -871,6 +871,12 @@ img{
     margin-right: var(--mb-0-25);
 }
 
+/* Active Modal */
+.active-modal{
+    opacity: 1;
+    visibility: visible;
+}
+
 /*==================== PORTFOLIO ====================*/
 .portfolio__container{
     overflow: initial;
